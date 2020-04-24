@@ -116,7 +116,7 @@ body {
     font-family: helvetica, sans-serif;
     text-align: center;
     background-image: url(../images/bg-body.jpg);
-    background-color: #393637;
+    background-color: rgb(206, 255, 240);
     background-repeat: repeat-y;
     background-position: 50% 0;
 }
@@ -151,7 +151,7 @@ h1 {
     margin: 0 0 10px;
     color: #b2b2b2;
     font: bold 30px/30px helvetica, sans-serif;
-    text-shadow: 1px 1px 4px #000;
+    text-shadow: 1px 1px 4px rgb(255, 255, 255);
 }
 
 h1.headline {
@@ -170,9 +170,8 @@ h2 {
 
 h2.headline {
     margin: 0 0 15px;
-    color: #a8a8a8;
+    color: rgb(0, 26, 255);
     font: normal 14px/16px 'FranklinGothicBook', helvetica, sans-serif;
-    text-shadow: 1px 1px 2px #000;
 }
 
 h3 {
