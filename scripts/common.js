@@ -36,7 +36,7 @@ if (!$.cookie('ZINGcalendar')) {
         /** USER ADDED SETTINGS ( Pass into function/method call init ) **/
         var settings = $.extend({
             // Defaults
-            date: 13, //new Date().getDate();  Set Limit Day ( all days before this selectable )
+            date: 14, //new Date().getDate();  Set Limit Day ( all days before this selectable )
             month: 04, //new Date().getMonth()+1; Sets which month to set this up for (i.e. December)
             fadeTiming: 300, // When you hover on a calendar day, this is the 'fade' animation speed
             daySlideDuration: 500 // When you click a calendar day, this is the 'slide' animation speed
